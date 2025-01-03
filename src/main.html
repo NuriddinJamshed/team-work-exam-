@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="flex justify-between items-center w-[90%] m-auto mt-[20px]">
+            <img class="w-[50%] xl:w-[15%]" src="imgs/logo.svg" alt="">
+            <div class="flex items-center gap-[20px] xl:hidden">
+                <i class="fa-solid fa-phone-flip text-[24px]"></i>
+                <p class="text-gray-500">Меню</p>
+                <i class="fa-solid fa-bars text-[32px]"></i>
+            </div>
+            <div class="hidden xl:flex flex-col">
+                <p class="text-[#00578A] text-[20px]">8 (495) 926-06-03</p>
+                <p class="text-[20px]"><i class="fa-brands fa-square-whatsapp text-green-600 text-[20px]"></i> Whatsapp</p>
+            </div>
+            <div class="hidden xl:flex flex-col">
+                <p>info@gormedcentre.ru</p>
+                <p class="underline">Заказать звонок</p>
+            </div>
+            <div class="hidden xl:flex flex-col">
+                <p>г. Мытищи,</p>
+                <p>ул.Рождественская, д.7</p>
+            </div>
+            <div class="hidden xl:flex flex-col">
+                <p>Ежедневно</p>
+                <p>с 9.00 до 21.00</p>
+            </div>
+            <div class="hidden xl:flex items-center gap-[10px]">
+                <i class="fa-solid fa-magnifying-glass bg-[#00C6BF] rounded-[10px] text-white px-[15px] py-[13px]"></i>
+                <button class="bg-[#E3EFF5] text-[#00578A] px-[15px] py-[8px] font-bold rounded-[8px] text-[20px]">Личный кабинет</button>
+            </div>
+        </nav>
+        <nav class="hidden xl:flex mt-[20px] px-[15px] py-[15px] w-[90%] m-auto justify-between items-center" style="box-shadow: 1px 1px 20px 5px rgb(236, 236, 236);;">
+            <div class="flex items-center gap-[25px]">
+                <select>
+                    <option>Направления</option>
+                </select>
+                <a href="#">Услуги</a>
+                <a href="#">Врачи</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Акции</a>
+                <select>
+                    <option>Направления</option>
+                </select>
+                <a href="#">Детство</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="flex justify-between items-center gap-[30px]">
+                <p>Версия для слабовидящих</p>
+                <button class="bg-[#00578A] text-white px-[15px] py-[8px] rounded-[8px] text-[16px]">Запись на приём</button>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
